@@ -1,8 +1,7 @@
 function r=RewardBalanceStrategy(I,t,tmax)
     
-    theta=0.75;%常数，0-1，以0.5为界表示hva,rca哪个重要
+    theta=0.75;%0~1
     
-    %对hva,rca归一化处理
     nor_hva=(I(:,1)-max(I(:,1)))/max(I(:,1));
     nor_rca=(I(:,2)-max(I(:,2)))/max(I(:,2));
     
