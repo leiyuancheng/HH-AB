@@ -8,7 +8,7 @@ function P=solution_select(Pt_new,Pt)
     rc=rca(Pt.PF);
 
     
-    %归一化，但是只有两个数
+    %normalization
     hv=hv/max(hv,hv_new);
     hv_new=hv_new/max(hv,hv_new);
 
