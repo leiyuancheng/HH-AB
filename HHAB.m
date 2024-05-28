@@ -90,15 +90,9 @@ for t=1:tmax
     ki(t,2)=k(2);
     ki(t,3)=k(3);
 
-    close all;
-    %u can del
+    close all;  %u can del
 end
 
-figure
-for t=1:tmax
-    plot(t,ki(t,1),'.',t,ki(t,2),'o',t,ki(t,3),'*')
-    hold on
-end
 
 %If 3 object, then you can output PF using this
 %{
