@@ -89,6 +89,9 @@ for t=1:tmax
     ki(t,1)=k(1);
     ki(t,2)=k(2);
     ki(t,3)=k(3);
+
+    close all;
+    %u can del
 end
 
 figure
