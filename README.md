@@ -1,5 +1,5 @@
 # HH-AB
-The file does not include all the problems and algorithms in PlatEMO, which can be imported if needed. You can visit https://github.com/BIMK/PlatEMO to get PlatEMO.
+The file does not include all the problems and algorithms in PlatEMO. You can visit https://github.com/BIMK/PlatEMO to get PlatEMO.
 
 platform:PlatEMO 
 
